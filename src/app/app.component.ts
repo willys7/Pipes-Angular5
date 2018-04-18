@@ -22,4 +22,8 @@ export class AppComponent {
     }
   }
 
+  promiseValue = new Promise((resolve, reject)=>{
+    setTimeout(()=>resolve('Llego la data'), 3500)
+  } )
+
 }
