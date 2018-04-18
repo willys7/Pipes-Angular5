@@ -28,6 +28,7 @@ export class AppComponent {
   } )
 
   date = new Date();
-  video = "g8G23quSHmQ"
+  video = "g8G23quSHmQ";
+  activar = true;
 
 }
